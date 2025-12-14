@@ -97,14 +97,18 @@ To learn more about React Native, take a look at the following resources:
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
 
 # 실행 명령어
-## 릴리즈 모드
-- npx react-native run-ios --mode Release --device "본인의_아이폰_이름"
-- npx react-native run-ios --mode Release --device "돌아가"
-## 디버그 모드
-- npx react-native run-ios --device "본인의_아이폰_이름"
-- npx react-native run-ios --device "돌아가"
+```sh
+# 릴리즈 모드
+npx react-native run-ios --mode Release --device "본인의_아이폰_이름"
+npx react-native run-ios --mode Release --device "돌아가"
+
+# 디버그 모드
+npx react-native run-ios --device "본인의_아이폰_이름"
+npx react-native run-ios --device "돌아가"
+```
 
 # 폴더 구조
+```sh
 src/
 ├── features/               # 기능 단위 폴더 (여기가 핵심!)
 │   ├── reservation/        # [예약] 관련 모든 것
@@ -117,3 +121,4 @@ src/
 │   └── utils/
 ├── pages/                  # 실제 라우팅되는 페이지
 └── App.tsx
+```
