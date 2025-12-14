@@ -1,0 +1,6 @@
+module Pods_illoomung {
+  umbrella header "Pods-illoomung-umbrella.h"
+
+  export *
+  module * { export * }
+}
