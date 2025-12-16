@@ -1,20 +1,20 @@
 {
-  "root": "/Users/junyoung/Documents/doc/react/illoomung",
-  "reactNativePath": "/Users/junyoung/Documents/doc/react/illoomung/node_modules/react-native",
+  "root": "/Users/junyoung/Documents/spring/Illoomung-Mbile",
+  "reactNativePath": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native",
   "reactNativeVersion": "0.83",
   "dependencies": {
     "react-native-safe-area-context": {
-      "root": "/Users/junyoung/Documents/doc/react/illoomung/node_modules/react-native-safe-area-context",
+      "root": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-safe-area-context",
       "name": "react-native-safe-area-context",
       "platforms": {
         "ios": {
-          "podspecPath": "/Users/junyoung/Documents/doc/react/illoomung/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
+          "podspecPath": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-safe-area-context/react-native-safe-area-context.podspec",
           "version": "5.6.2",
           "configurations": [],
           "scriptPhases": []
         },
         "android": {
-          "sourceDir": "/Users/junyoung/Documents/doc/react/illoomung/node_modules/react-native-safe-area-context/android",
+          "sourceDir": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-safe-area-context/android",
           "packageImportPath": "import com.th3rdwave.safeareacontext.SafeAreaContextPackage;",
           "packageInstance": "new SafeAreaContextPackage()",
           "buildTypes": [],
@@ -23,7 +23,71 @@
             "RNCSafeAreaProviderComponentDescriptor",
             "RNCSafeAreaViewComponentDescriptor"
           ],
-          "cmakeListsPath": "/Users/junyoung/Documents/doc/react/illoomung/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cmakeListsPath": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-screens": {
+      "root": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-screens",
+      "name": "react-native-screens",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-screens/RNScreens.podspec",
+          "version": "4.18.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-screens/android",
+          "packageImportPath": "import com.swmansion.rnscreens.RNScreensPackage;",
+          "packageInstance": "new RNScreensPackage()",
+          "buildTypes": [],
+          "libraryName": "rnscreens",
+          "componentDescriptors": [
+            "RNSFullWindowOverlayComponentDescriptor",
+            "RNSScreenContainerComponentDescriptor",
+            "RNSScreenNavigationContainerComponentDescriptor",
+            "RNSScreenStackHeaderConfigComponentDescriptor",
+            "RNSScreenStackHeaderSubviewComponentDescriptor",
+            "RNSScreenStackComponentDescriptor",
+            "RNSSearchBarComponentDescriptor",
+            "RNSScreenComponentDescriptor",
+            "RNSScreenFooterComponentDescriptor",
+            "RNSScreenContentWrapperComponentDescriptor",
+            "RNSModalScreenComponentDescriptor",
+            "RNSBottomTabsComponentDescriptor",
+            "RNSSafeAreaViewComponentDescriptor"
+          ],
+          "cmakeListsPath": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt",
+          "cxxModuleCMakeListsModuleName": null,
+          "cxxModuleCMakeListsPath": null,
+          "cxxModuleHeaderName": null,
+          "isPureCxxDependency": false
+        }
+      }
+    },
+    "react-native-vector-icons": {
+      "root": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-vector-icons",
+      "name": "react-native-vector-icons",
+      "platforms": {
+        "ios": {
+          "podspecPath": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-vector-icons/RNVectorIcons.podspec",
+          "version": "10.2.0",
+          "configurations": [],
+          "scriptPhases": []
+        },
+        "android": {
+          "sourceDir": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-vector-icons/android",
+          "packageImportPath": "import com.oblador.vectoricons.VectorIconsPackage;",
+          "packageInstance": "new VectorIconsPackage()",
+          "buildTypes": [],
+          "libraryName": "RNVectorIconsSpec",
+          "componentDescriptors": [],
+          "cmakeListsPath": "/Users/junyoung/Documents/spring/Illoomung-Mbile/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt",
           "cxxModuleCMakeListsModuleName": null,
           "cxxModuleCMakeListsPath": null,
           "cxxModuleHeaderName": null,
@@ -194,7 +258,7 @@
         {
           "name": "--path <path>",
           "description": "Path to the React Native project root.",
-          "default": "/Users/junyoung/Documents/doc/react/illoomung"
+          "default": "/Users/junyoung/Documents/spring/Illoomung-Mbile"
         },
         {
           "name": "--platform <string>",
@@ -492,7 +556,7 @@
   "assets": [],
   "project": {
     "ios": {
-      "sourceDir": "/Users/junyoung/Documents/doc/react/illoomung/ios",
+      "sourceDir": "/Users/junyoung/Documents/spring/Illoomung-Mbile/ios",
       "xcodeProject": {
         "name": "illoomung.xcworkspace",
         "path": ".",
@@ -501,7 +565,7 @@
       "assets": []
     },
     "android": {
-      "sourceDir": "/Users/junyoung/Documents/doc/react/illoomung/android",
+      "sourceDir": "/Users/junyoung/Documents/spring/Illoomung-Mbile/android",
       "appName": "app",
       "packageName": "com.illoomung",
       "applicationId": "com.illoomung",
